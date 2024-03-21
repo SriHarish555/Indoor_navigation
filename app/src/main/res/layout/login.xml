@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/loginlayout">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_centerHorizontal="true"
+        android:layout_width="352dp"
+        android:layout_height="305dp"
+        app:srcCompat="@drawable/ic_channel_foreground" />
+
+
+    <EditText
+        android:paddingTop="5dp"
+        android:id="@+id/roll_no"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView4"
+        android:layout_centerInParent="true"
+        android:inputType="textPersonName"
+        android:hint="Roll No"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_below="@+id/roll_no"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textSize="20dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="SUBMIT" />
+
+</RelativeLayout>
